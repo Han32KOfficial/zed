@@ -1,0 +1,41 @@
+ZED — INSTALL ON YOUR IPHONE (no Mac, no Xcode, free)
+=====================================================
+
+Zed installs from Safari like an app: own Home Screen icon, full screen,
+works offline, keeps your playlists, and shows on the lock screen.
+It just needs to be put on the web once so your iPhone can reach it.
+
+STEP 1 — Put it online (one time, ~5 minutes, on your PC)
+  1. Unzip this folder.
+  2. Go to github.com and make a free account (skip if you have one).
+  3. Click "+" (top right) > "New repository". Name it: zed
+     Set it to Public. Click "Create repository".
+  4. Click "uploading an existing file". Drag in ALL the files from the
+     unzipped folder (index.html, sw.js, manifest.webmanifest,
+     jszip.min.js and the 3 .png icons). Click "Commit changes".
+  5. Go to Settings > Pages. Under "Branch" choose "main" and "/ (root)",
+     click Save. Wait about 1 minute.
+  6. Your app address will be:  https://YOUR-USERNAME.github.io/zed/
+
+STEP 2 — Install on your iPhone
+  1. Open that address in SAFARI (must be Safari).
+  2. Tap the Share button (square with arrow) > "Add to Home Screen" > Add.
+  3. Open Zed from the Home Screen icon from now on — not from Safari.
+     (The Home Screen app keeps its own separate library.)
+
+USING IT
+  - "+ Add songs" opens the Files app — pick MP3s from iCloud Drive /
+    On My iPhone. Zed copies them in, so they stay even if you move
+    the originals.
+  - Volume: use the iPhone's side buttons (iOS doesn't let web apps
+    set volume, so the slider is hidden there).
+  - Lock screen / Control Center show the song with play, pause,
+    skip and scrub.
+  - "Export .zip" opens the share sheet — choose "Save to Files".
+
+GOOD TO KNOW
+  - Songs are stored on your phone only. Deleting the Zed icon deletes
+    its library.
+  - Lots of music uses storage; check Settings > General > iPhone Storage.
+  - Updating: re-upload a changed file to GitHub, and change
+    'zed-v1' to 'zed-v2' in sw.js so phones pick up the new version.
